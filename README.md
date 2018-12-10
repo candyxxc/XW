@@ -1,2 +1,3 @@
 # XW
-swoole
+##use method
+	1.app/controller/index
