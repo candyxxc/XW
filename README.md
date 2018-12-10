@@ -1,3 +1,4 @@
 # XW
-##use method
-	1.app/controller/index
+---
+## use method
+1.app/controller/index
