@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Tango萧小春
+ * User: XiaoXiaoChun
  * Date: 2018/11/24
  * Time: 14:22
  */
@@ -10,22 +10,29 @@ namespace app\index\controller;
 
 
 use core\Controller;
+use core\ExceptionHandler;
 use core\RedisPool;
 
 class User extends Controller
 {
+    public function test()
+    {
+        $pool = new RedisPool();
+        $redis = $pool->get();
+        $data = $redis->get('wesome');
+        $pool->put($redis);
+        $this->response->end($data);
+    }
     public function regiSter()
     {
         \Swoole\Runtime::enableCoroutine();
         go(function () {
-            $pool = new RedisPool();
-            // max concurrency num is more than max connections
-            // but it's no problem, channel will help you with scheduling
-            $redis = $pool->get();
-            $redis->get('awesome');
-            $pool->put($redis);
+            try{
+                $this->test();
+            }catch (\Throwable $throwable){
+                ExceptionHandler::handle($throwable,$this->response);
+            }
         });
-        $this->response->end();
 
 //            go(function () {
 //                ($redis = new \Redis)->connect('127.0.0.1', 6379);

@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Tango萧小春
+ * User: XiaoXiaoChun
  * Date: 2018/11/18
  * Time: 0:22
  */
@@ -19,7 +19,7 @@ class Controller
     {
         $this->response->header("Content-Type", "application/json");
         $this->response->status($status);
-        $this->response->write(json_encode($message,true));
+        $this->response->write(json_encode($message,JSON_UNESCAPED_UNICODE));
         $this->response->end();
     }
     private static function returnError($response, $message = 'Request url error')

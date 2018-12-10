@@ -9,9 +9,6 @@ class WebSocket
         $ws = new swoole_websocket_server("0.0.0.0", 9501);
 
         $ws->set([
-//            'ssl_cert_file' => '/etc/nginx/1_www.xiaoxiaochun.club_bundle.crt',
-//            'ssl_key_file' => '/etc/nginx/2_www.xiaoxiaochun.club.key',
-//            'open_httpd2_protocol' => true,
             'http_compression' => false
         ]);
         $ws->on('request', [$this, 'onRequest']);

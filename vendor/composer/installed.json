@@ -1,0 +1,40 @@
+[
+    {
+        "name": "easyswoole/swoole-ide-helper",
+        "version": "1.03",
+        "version_normalized": "1.03.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easy-swoole/swoole-ide-helper.git",
+            "reference": "3b84225386ea75b5695bcc1704c756b421d36e78"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/easy-swoole/swoole-ide-helper/zipball/3b84225386ea75b5695bcc1704c756b421d36e78",
+            "reference": "3b84225386ea75b5695bcc1704c756b421d36e78",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2018-08-24T08:07:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Swoole\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "eagle",
+                "email": "eaglewudi@gmail.com"
+            }
+        ],
+        "description": "Swoole 在IDE下自动识别类、函数、宏，自动补全函数名，为了国内加速完整克隆的镜像"
+    }
+]

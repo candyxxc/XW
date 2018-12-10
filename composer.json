@@ -1,0 +1,5 @@
+{
+    "require": {
+        "easyswoole/swoole-ide-helper": "^1.03"
+    }
+}
