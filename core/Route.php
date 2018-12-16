@@ -18,7 +18,6 @@ class Route
 	if($this->request_url=='/favicon.ico'){
 		$response->end();
 	}else{
-		echo $this->request_url.PHP_EOL;
         	\core\xw\XwRouter::analysis($this->request_url,$request,$response);//解析
 	}
     }
