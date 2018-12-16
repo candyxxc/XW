@@ -10,12 +10,17 @@ error_reporting(0);
 
 class Route
 {
-    private static $request_url = NULL;
+    private $request_url = NULL;
 
     public function __construct($request, $response)
     {
-        self::$request_url = $request->server['request_uri'];//获取请求url
-        \core\xw\XwRouter::analysis(self::$request_url,$request,$response);//解析
+        $this->request_url = $request->server['request_uri'];//获取请求url
+	if($this->request_url=='/favicon.ico'){
+		$response->end();
+	}else{
+		echo $this->request_url.PHP_EOL;
+        	\core\xw\XwRouter::analysis($this->request_url,$request,$response);//解析
+	}
     }
 
     public static function load($className, $response)

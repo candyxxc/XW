@@ -20,7 +20,7 @@ class Index extends Controller
         $mysql = $mysqlPool->get();
         $data = $mysql->query('select * from user');
         $mysqlPool->put($mysql);
-        $this->responseJson(200, $data);
+        $this->responseJson(200,123456);
     }
 }
 
