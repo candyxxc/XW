@@ -25,7 +25,6 @@ class XwRouter
             try {
                 $obj = new $userNamespace($request, $response);
                 if (method_exists($obj, $method)) {
-                    self::requestMethod($controller . '/' . $ctrl . '/' . $method, $request->server['request_method'], $response);
                     $obj->$method();
                 } else {
                     \core\ExceptionHandler::handle($method . ' method not found', $response);
@@ -39,17 +38,6 @@ class XwRouter
                 }
             }
         } else {
-            \core\ExceptionHandler::handle($method . ' module not found', $response);
-        }
-    }
-
-    private function requestMethod($url, $method, $response)
-    {
-        $routeConfig = include './../config/route.php';
-        if (!(isset($routeConfig[$url]))){
-            return true;
-        }
-        if (!($routeConfig[$url] == $method)) {
             \core\ExceptionHandler::handle($method . ' module not found', $response);
         }
     }
