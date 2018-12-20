@@ -16,11 +16,12 @@ class Index extends Controller
 {
     public function index()
     {
-        $mysqlPool = MysqlPool::getInstance(Config::getInstance()->getCon('MYSQL'));
-        $mysql = $mysqlPool->get();
-        $data = $mysql->query('select * from user');
-        $mysqlPool->put($mysql);
-        $this->responseJson(200,123456);
+        $this->response->end(123);
+//        $mysqlPool = MysqlPool::getInstance(Config::getInstance()->getCon('MYSQL'));
+//        $mysql = $mysqlPool->get();
+//        $data = $mysql->query('select * from user');
+//        $mysqlPool->put($mysql);
+//        $this->responseJson(200,123456);
     }
 }
 

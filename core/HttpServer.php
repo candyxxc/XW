@@ -27,10 +27,14 @@ class HttpServer
 
     public function OnRequest($request, $response)
     {
-        spl_autoload_register(function ($className) use ($response) {
-            Route::load($className, $response);
+
+        $coId = \core\xw\Coroutine\Coroutine::setBaseId();
+        $context = new \core\xw\Coroutine\Context($request,$response);
+        \core\xw\Pool\Context::set($context);
+        defer(function () use ($coId) {
+            \core\xw\Pool\Context::clear($coId);
         });
-        new Route($request, $response, $this->object);
+        new Route();
     }
 
     public function OnStart()
@@ -49,5 +53,7 @@ welcome;
 
     }
 }
-
+spl_autoload_register(function ($className)  {
+    Route::load($className);
+});
 new HttpServer();
