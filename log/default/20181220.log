@@ -1,0 +1,13 @@
+2018-12-20 02:49:14 | EMERGENCY | 20568 | 5c1b03293adc9 | 1545274154.405 | /usr/share/nginx/html/frame/XW/core/HttpServer.php | 40 | 0 | Call to undefined method core\xw\Pool\Context::se() | #0 {main}
+2018-12-20 03:07:54 | CRITICAL | 22348 | 5c1b0788e4dde | 1545275274.125 | Error - type:1 - file:/usr/share/nginx/html/frame/XW/core/Log.php - line:25 - msg:Uncaught TypeError: Argument 1 passed to core\Log::exception() must implement interface Throwable, string given, called in /usr/share/nginx/html/frame/XW/core/ExceptionHandler.php on line 25 and defined in /usr/share/nginx/html/frame/XW/core/Log.php:25
+Stack trace:
+#0 /usr/share/nginx/html/frame/XW/core/ExceptionHandler.php(25): core\Log::exception('server error,pl...', 'server error,pl...', 'app')
+#1 /usr/share/nginx/html/frame/XW/core/HttpServer.php(50): core\ExceptionHandler::handle('server error,pl...', Object(Swoole\Http\Response))
+#2 {main}
+  thrown
+2018-12-20 03:07:56 | CRITICAL | 22348 | 5c1b0788e4dde | 1545275276.318 | Error - type:1 - file:/usr/share/nginx/html/frame/XW/core/Log.php - line:25 - msg:Uncaught TypeError: Argument 1 passed to core\Log::exception() must implement interface Throwable, string given, called in /usr/share/nginx/html/frame/XW/core/ExceptionHandler.php on line 25 and defined in /usr/share/nginx/html/frame/XW/core/Log.php:25
+Stack trace:
+#0 /usr/share/nginx/html/frame/XW/core/ExceptionHandler.php(25): core\Log::exception('server error,pl...', 'server error,pl...', 'app')
+#1 /usr/share/nginx/html/frame/XW/core/HttpServer.php(50): core\ExceptionHandler::handle('server error,pl...', Object(Swoole\Http\Response))
+#2 {main}
+  thrown

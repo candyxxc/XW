@@ -16,7 +16,7 @@ class Index extends Controller
 {
     public function index()
     {
-        $this->response->end(123);
+        $this->response->end('Hello World!');
 //        $mysqlPool = MysqlPool::getInstance(Config::getInstance()->getCon('MYSQL'));
 //        $mysql = $mysqlPool->get();
 //        $data = $mysql->query('select * from user');

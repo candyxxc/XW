@@ -20,21 +20,40 @@ class HttpServer
         $http->set([
             'http_compression' => false
         ]);
+
+        $http->on('workerStart', [$this, 'OnWorkerStart']);
         $http->on('request', [$this, 'OnRequest']);
         $http->on('start', [$this, 'OnStart']);
         $http->start();
     }
 
+    public function OnWorkerStart()
+    {
+        \core\Log::inti();
+    }
+
     public function OnRequest($request, $response)
     {
+        try {
+            $coId = \core\xw\Coroutine\Coroutine::setBaseId();
+            $context = new \core\xw\Coroutine\Context($request, $response);
+            \core\xw\Pool\Context::set($context);
+            defer(function () use ($coId) {
+                \core\xw\Pool\Context::clear($coId);
+            });
+            new Route();
+        } catch (\Exception $exception) {
+            \core\Log::exception($exception);
+            \core\ExceptionHandler::handle('server error,please look http log', $response);
+        } catch (\Error $exception) {
+            \core\Log::exception($exception);
+            \core\ExceptionHandler::handle('server error,please look http log', $response);
 
-        $coId = \core\xw\Coroutine\Coroutine::setBaseId();
-        $context = new \core\xw\Coroutine\Context($request,$response);
-        \core\xw\Pool\Context::set($context);
-        defer(function () use ($coId) {
-            \core\xw\Pool\Context::clear($coId);
-        });
-        new Route();
+        } catch (\Throwable $throwable) {
+            \core\Log::exception($throwable);
+            \core\ExceptionHandler::handle('server error,please look http log', $response);
+        }
+
     }
 
     public function OnStart()
@@ -53,7 +72,8 @@ welcome;
 
     }
 }
-spl_autoload_register(function ($className)  {
+
+spl_autoload_register(function ($className) {
     Route::load($className);
 });
 new HttpServer();

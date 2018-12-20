@@ -12,7 +12,7 @@ class ExceptionHandler
 {
     public static function handle($message,$response)
     {
-        $debug = Config::getInstance();
+        $debug = Config::getInstance()->getCon('DEBUG');
         if ($debug){
             $response->end(nl2br($message));
         }else{
@@ -22,6 +22,7 @@ class ExceptionHandler
             ];
             $response->header("Content-Type", "application/json");
             $response->end(json_encode($arr, JSON_UNESCAPED_UNICODE));
+//            Log::exception(nl2br($message),nl2br($message),'app');
         }
     }
 }
