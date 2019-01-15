@@ -1,0 +1,266 @@
+2019-01-15 10:10:28 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547028.571 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:10:28 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547028.571 | 35
+2019-01-15 10:10:28 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547028.571 | 0
+2019-01-15 10:10:28 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547028.571 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:10:28 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547028.571 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(37): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:10:29 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547029.991 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:10:29 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547029.991 | 35
+2019-01-15 10:10:29 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547029.991 | 0
+2019-01-15 10:10:29 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547029.991 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:10:29 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547029.991 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(37): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:10:30 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547030.323 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:10:30 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547030.323 | 35
+2019-01-15 10:10:30 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547030.323 | 0
+2019-01-15 10:10:30 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547030.323 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:10:30 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547030.323 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(37): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:10:32 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547032.323 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:10:32 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547032.323 | 35
+2019-01-15 10:10:32 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547032.323 | 0
+2019-01-15 10:10:32 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547032.323 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:10:32 | EMERGENCY | 7643 | 5c3db19412f07 | 1547547032.323 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(37): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:11:05 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547065.216 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:11:05 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547065.216 | 35
+2019-01-15 10:11:05 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547065.216 | 0
+2019-01-15 10:11:05 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547065.216 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:11:05 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547065.216 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(37): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:11:23 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547083.505 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:11:23 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547083.505 | 35
+2019-01-15 10:11:23 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547083.505 | 0
+2019-01-15 10:11:23 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547083.505 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:11:23 | EMERGENCY | 7676 | 5c3db1b88e0b9 | 1547547083.505 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(37): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:11:26 | EMERGENCY | 7704 | 5c3db1cd9cfda | 1547547086.541 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:11:26 | EMERGENCY | 7704 | 5c3db1cd9cfda | 1547547086.541 | 35
+2019-01-15 10:11:26 | EMERGENCY | 7704 | 5c3db1cd9cfda | 1547547086.541 | 0
+2019-01-15 10:11:26 | EMERGENCY | 7704 | 5c3db1cd9cfda | 1547547086.541 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:11:26 | EMERGENCY | 7704 | 5c3db1cd9cfda | 1547547086.541 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(39): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:12:25 | EMERGENCY | 7743 | 5c3db2093ebe7 | 1547547145.864 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:12:25 | EMERGENCY | 7743 | 5c3db2093ebe7 | 1547547145.864 | 35
+2019-01-15 10:12:25 | EMERGENCY | 7743 | 5c3db2093ebe7 | 1547547145.864 | 0
+2019-01-15 10:12:25 | EMERGENCY | 7743 | 5c3db2093ebe7 | 1547547145.864 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:12:25 | EMERGENCY | 7743 | 5c3db2093ebe7 | 1547547145.864 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(39): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:13:06 | EMERGENCY | 7782 | 5c3db23234e37 | 1547547186.833 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:13:06 | EMERGENCY | 7782 | 5c3db23234e37 | 1547547186.833 | 35
+2019-01-15 10:13:06 | EMERGENCY | 7782 | 5c3db23234e37 | 1547547186.833 | 0
+2019-01-15 10:13:06 | EMERGENCY | 7782 | 5c3db23234e37 | 1547547186.833 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:13:06 | EMERGENCY | 7782 | 5c3db23234e37 | 1547547186.833 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(40): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:13:14 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547194.517 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:13:14 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547194.517 | 35
+2019-01-15 10:13:14 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547194.517 | 0
+2019-01-15 10:13:14 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547194.517 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:13:14 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547194.517 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(38): core\xw\Exception\ExceptionHandler::handle(Object(Error), Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:13:50 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547230.689 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:13:50 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547230.689 | 35
+2019-01-15 10:13:50 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547230.689 | 0
+2019-01-15 10:13:50 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547230.689 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:13:50 | EMERGENCY | 7805 | 5c3db23a07e47 | 1547547230.689 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:13:54 | EMERGENCY | 7836 | 5c3db2618a516 | 1547547234.71 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:13:54 | EMERGENCY | 7836 | 5c3db2618a516 | 1547547234.71 | 35
+2019-01-15 10:13:54 | EMERGENCY | 7836 | 5c3db2618a516 | 1547547234.71 | 0
+2019-01-15 10:13:54 | EMERGENCY | 7836 | 5c3db2618a516 | 1547547234.71 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:13:54 | EMERGENCY | 7836 | 5c3db2618a516 | 1547547234.71 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:14:08 | EMERGENCY | 7866 | 5c3db2703dddf | 1547547248.818 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:14:08 | EMERGENCY | 7866 | 5c3db2703dddf | 1547547248.818 | 35
+2019-01-15 10:14:08 | EMERGENCY | 7866 | 5c3db2703dddf | 1547547248.818 | 0
+2019-01-15 10:14:08 | EMERGENCY | 7866 | 5c3db2703dddf | 1547547248.818 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:14:08 | EMERGENCY | 7866 | 5c3db2703dddf | 1547547248.818 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:14:34 | EMERGENCY | 7891 | 5c3db289edf76 | 1547547274.726 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:14:34 | EMERGENCY | 7891 | 5c3db289edf76 | 1547547274.726 | 35
+2019-01-15 10:14:34 | EMERGENCY | 7891 | 5c3db289edf76 | 1547547274.726 | 0
+2019-01-15 10:14:34 | EMERGENCY | 7891 | 5c3db289edf76 | 1547547274.726 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:14:34 | EMERGENCY | 7891 | 5c3db289edf76 | 1547547274.726 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:14:57 | EMERGENCY | 7917 | 5c3db2a14de38 | 1547547297.827 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:14:57 | EMERGENCY | 7917 | 5c3db2a14de38 | 1547547297.827 | 35
+2019-01-15 10:14:57 | EMERGENCY | 7917 | 5c3db2a14de38 | 1547547297.827 | 0
+2019-01-15 10:14:57 | EMERGENCY | 7917 | 5c3db2a14de38 | 1547547297.827 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:14:57 | EMERGENCY | 7917 | 5c3db2a14de38 | 1547547297.827 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:15:10 | EMERGENCY | 7939 | 5c3db2adb2649 | 1547547310.342 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:15:10 | EMERGENCY | 7939 | 5c3db2adb2649 | 1547547310.342 | 35
+2019-01-15 10:15:10 | EMERGENCY | 7939 | 5c3db2adb2649 | 1547547310.342 | 0
+2019-01-15 10:15:10 | EMERGENCY | 7939 | 5c3db2adb2649 | 1547547310.342 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:15:10 | EMERGENCY | 7939 | 5c3db2adb2649 | 1547547310.342 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(17): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:15:47 | EMERGENCY | 7969 | 5c3db2d30481e | 1547547347.795 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:15:47 | EMERGENCY | 7969 | 5c3db2d30481e | 1547547347.795 | 35
+2019-01-15 10:15:47 | EMERGENCY | 7969 | 5c3db2d30481e | 1547547347.795 | 0
+2019-01-15 10:15:47 | EMERGENCY | 7969 | 5c3db2d30481e | 1547547347.795 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:15:47 | EMERGENCY | 7969 | 5c3db2d30481e | 1547547347.795 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:16:05 | EMERGENCY | 8013 | 5c3db2e525751 | 1547547365.641 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:16:05 | EMERGENCY | 8013 | 5c3db2e525751 | 1547547365.641 | 35
+2019-01-15 10:16:05 | EMERGENCY | 8013 | 5c3db2e525751 | 1547547365.641 | 0
+2019-01-15 10:16:05 | EMERGENCY | 8013 | 5c3db2e525751 | 1547547365.641 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:16:05 | EMERGENCY | 8013 | 5c3db2e525751 | 1547547365.641 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}
+2019-01-15 10:16:39 | EMERGENCY | 8051 | 5c3db3068ce3a | 1547547399.342 | /home/xxc/桌面/github/XW/core/Route.php
+2019-01-15 10:16:39 | EMERGENCY | 8051 | 5c3db3068ce3a | 1547547399.342 | 35
+2019-01-15 10:16:39 | EMERGENCY | 8051 | 5c3db3068ce3a | 1547547399.342 | 0
+2019-01-15 10:16:39 | EMERGENCY | 8051 | 5c3db3068ce3a | 1547547399.342 | Class 'core\ExceptionHandler' not found
+2019-01-15 10:16:39 | EMERGENCY | 8051 | 5c3db3068ce3a | 1547547399.342 | #0 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/Excepti...')
+#1 [internal function]: {closure}('core\\ExceptionH...')
+#2 /home/xxc/桌面/github/XW/core/Route.php(35): spl_autoload_call('core\\ExceptionH...')
+#3 /home/xxc/桌面/github/XW/core/HttpServer.php(74): Route::load('../core/xw/Exce...')
+#4 [internal function]: {closure}('core\\xw\\Excepti...')
+#5 /home/xxc/桌面/github/XW/core/xw/Exception/ExceptionHandler.php(16): spl_autoload_call('core\\xw\\Excepti...')
+#6 /home/xxc/桌面/github/XW/core/xw/XwRouter.php(41): core\xw\Exception\ExceptionHandler::handle('asd module not ...', Object(Swoole\Http\Response))
+#7 /home/xxc/桌面/github/XW/core/Route.php(24): core\xw\XwRouter::analysis('/asd', Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#8 /home/xxc/桌面/github/XW/core/HttpServer.php(44): Route->__construct()
+#9 {main}

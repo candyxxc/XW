@@ -6,14 +6,16 @@
  * Time: 0:22
  */
 namespace core;
+use core\xw\Pool\Context;
+
 class Controller
 {
     protected $request = NULL;
     protected $response = NULL;
-    public function __construct($request,$response)
+    public function __construct()
     {
-        $this->request=$request;
-        $this->response=$response;
+        $this->request = Context::getContext()->request();
+        $this->response = Context::getContext()->response();
     }
     public function responseJson($status,$message)
     {

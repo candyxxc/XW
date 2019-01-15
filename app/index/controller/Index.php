@@ -11,17 +11,13 @@ namespace app\index\controller;
 use core\Config;
 use core\Controller;
 use core\MysqlPool;
+use core\xw\Pool\Context;
 
 class Index extends Controller
 {
     public function index()
     {
         $this->response->end('Hello World!');
-//        $mysqlPool = MysqlPool::getInstance(Config::getInstance()->getCon('MYSQL'));
-//        $mysql = $mysqlPool->get();
-//        $data = $mysql->query('select * from user');
-//        $mysqlPool->put($mysql);
-//        $this->responseJson(200,123456);
     }
 }
 

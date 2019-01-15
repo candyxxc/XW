@@ -7,12 +7,15 @@
  */
 
 namespace core\xw;
+
+use core\xw\Exception\Ehandler;
+use core\xw\Exception\ExceptionHandler;
+
 class XwRouter
 {
-    public static function analysis($url, $request, $response)
+    public static function analysis($url, $response)
     {
         $path = explode('/', trim($url, '/'));
-
         $path[0] = $path[0] == "" ? 'index' : $path[0];
         $path[1] = $path[1] ?? 'index';
         $path[2] = $path[2] ?? 'index';
@@ -21,24 +24,20 @@ class XwRouter
         $classFileName = '../app/' . $controller . '/' . 'controller/';
         $userNamespace = 'app\\' . $controller . '\\controller\\' . ucfirst($ctrl);
 
+
         if (is_dir($classFileName)) {
             try {
-                $obj = new $userNamespace($request, $response);
+                $obj = new $userNamespace();
                 if (method_exists($obj, $method)) {
                     $obj->$method();
                 } else {
-                    \core\ExceptionHandler::handle($method . ' method not found', $response);
+                    ExceptionHandler::handle($method.' method not found',$response);
                 }
             } catch (\Throwable $throwable) {
-                $e = error_get_last();
-                if ($e) {
-                    \core\ExceptionHandler::handle($e['message'] . '<br>' . $throwable, $response);
-                } else {
-                    \core\ExceptionHandler::handle($throwable, $response);
-                }
+                ExceptionHandler::handle($throwable,$response);
             }
         } else {
-            \core\ExceptionHandler::handle($method . ' module not found', $response);
+            ExceptionHandler::handle($path[0].' module not found',$response);
         }
     }
 }
