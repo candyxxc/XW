@@ -10,6 +10,7 @@ namespace core\xw\Pool;
 
 interface PoolInterface
 {
+    public static function getInstance($config);
     public function connect($config);
     public function createObject($config);
     public function put($obj);

@@ -34,12 +34,18 @@ class HttpServer
         $http->start();
     }
 
-    public function OnWorkerStart()
+    public function OnWorkerStart($service,$workey_id)
     {
         Log::inti();
-        $obj = new \core\xw\Pool\MysqlPool();
-        $obj->connect(Config::getInstance()->getCon('MYSQL'));
-        echo $obj->length();
+        try {
+            \core\xw\Pool\MysqlPool::getInstance(Config::getInstance()->getCon('MYSQL'));
+        } catch (\Exception $exception) {
+            echo $exception->getMessage();
+            $service->shutdown();
+        } catch (\Throwable $throwable) {
+            echo $throwable->getMessage();
+            $service->shutdown();
+        }
     }
 
     public function OnRequest($request, $response)
