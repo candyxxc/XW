@@ -22,7 +22,7 @@ class HttpServer
 
     public function __construct()
     {
-        $http = new \Swoole\Http\Server("0.0.0.0", 9501);
+        $http = new \Swoole\Http\Server("0.0.0.0", 9502);
 
         $http->set([
             'http_compression' => false
