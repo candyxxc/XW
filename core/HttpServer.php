@@ -25,7 +25,7 @@ class HttpServer
         $http = new \Swoole\Http\Server("0.0.0.0", 9502);
 
         $http->set([
-            'http_compression' => false
+            'worket_num' => 4
         ]);
 
         $http->on('workerStart', [$this, 'OnWorkerStart']);

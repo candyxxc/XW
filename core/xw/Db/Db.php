@@ -10,7 +10,6 @@ namespace core\xw\Db;
 
 
 use core\xw\Exception\Ehandler;
-use mysql_xdevapi\Exception;
 use Swoole\Coroutine\Mysql;
 
 class Db

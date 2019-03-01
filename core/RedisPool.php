@@ -6,9 +6,21 @@
  * Time: 19:11
  */
 namespace core;
+
 class RedisPool
 {
-    public function __construct(int $size=10)
+    private static $instance;
+    private $pool;//连接池容器
+
+    public static function getInstance()
+    {
+        if (empty(self::$instance)) {
+            self::$instance = new static();
+        }
+        return self::$instance;
+    }
+
+    public function __construct(int $size=5)
     {
         $this->pool = new \Swoole\Coroutine\Channel($size);
         for ($i = 0; $i < $size; $i++) {
@@ -31,7 +43,10 @@ class RedisPool
     {
         $this->pool->push($redis);
     }
-
+    public function length():int
+    {
+        return $this->pool->length();
+    }
     public function close(): void
     {
         $this->pool->close();

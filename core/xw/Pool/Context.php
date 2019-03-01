@@ -23,12 +23,14 @@ class Context
     public static function set($context)
     {
         $id = Coroutine::getId();
+        echo 'set'.$id.PHP_EOL;
         self::$pool[$id] = $context;
     }
 
     public static function clear()
     {
         $id = Coroutine::getId();
+        echo 'clear'.$id.PHP_EOL;
         if (isset(self::$pool[$id])) {
             unset(self::$pool[$id]);
         }

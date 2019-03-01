@@ -23,6 +23,7 @@ class Coroutine
     public static function setBaseId()
     {
         $id = self::getId();
+        echo 'setBaseId'.$id.PHP_EOL;
         self::$IdMaps[$id] = $id;
         return $id;
     }
